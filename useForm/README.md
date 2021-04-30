@@ -1,3 +1,15 @@
-# NOTAS
+# useForm Hook
 
-ESTE REPOSITORIO CONTIENE VARIOS CUSTOMHOOKS PARA AYUDARME CON PROYECTOS FUTUROS Y NO VOLVER A ESCRIBIRLOS.
+EJEMPLO:
+
+```
+    const initialForm = {
+        name:'',
+        age:0,
+        email:''
+    };
+
+    const [formValues, handleInputChange, reset ] = useForm( initialForm );
+
+```
+

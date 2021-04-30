@@ -1,3 +1,10 @@
-# NOTAS
+# useFetch Hook
 
-ESTE REPOSITORIO CONTIENE VARIOS CUSTOMHOOKS PARA AYUDARME CON PROYECTOS FUTUROS Y NO VOLVER A ESCRIBIRLOS.
+EJEMPLO:
+
+```
+const url = 'endpoint de una api';
+const { data: null, loading:true, error:null } = useFetch (url);
+
+```
+
